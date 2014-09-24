@@ -182,6 +182,12 @@
 	</div>
 	<!-- ENDIF config.usePagination -->
 
+
+	<!-- IF topics.length -->
+	<div widget-area="sidebar" class="col-md-3 col-xs-12 category-sidebar"></div>
+	<!-- ENDIF topics.length -->
+
+
 	<!-- IMPORT partials/move_thread_modal.tpl -->
 	<!-- IMPORT partials/fork_thread_modal.tpl -->
 	<!-- IMPORT partials/move_post_modal.tpl -->
